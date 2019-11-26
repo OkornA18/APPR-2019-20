@@ -1,4 +1,5 @@
-# Analiza podatkov s programom R, 2019/20
+# Analiza sekundarnega in terciarnega izobraževanja
+## Ana Marija Okorn
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
@@ -7,8 +8,9 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 ## Tematika
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+V svojem projektu bom analizirala vključenost otrok v srednje šole ter študentov in odraslih v ustanove namenjene terciarnemu izobraževanju. Vse podatke, ki jih bom vključila v svojo projektno nalogo, sem dobila na SURS-u.
+
+v tabele bom vključila število dijakov na 1000 prebivalcev v posameznih občinah oz. v posameznih statističnih regijah(podatki 2007-2018) Prikazala bom tudi delež dijakov po spolu po posameznih vrstah izobraževanja ter število dijakov po letnikih, vrsti vpisa in vrsti izobraževanja.
 
 ## Program
 
