@@ -10,9 +10,30 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 V svojem projektu bom analizirala vključenost otrok v srednje šole ter študentov in odraslih v ustanove namenjene terciarnemu izobraževanju. Vse podatke, ki jih bom vključila v svojo projektno nalogo, sem dobila na SURS-u.
 
-v tabele bom vključila število dijakov na 1000 prebivalcev v posameznih občinah oz. v posameznih statističnih regijah(podatki 2007-2018) Prikazala bom tudi delež dijakov po spolu po posameznih vrstah izobraževanja ter število dijakov po letnikih, vrsti vpisa in vrsti izobraževanja(podatki 2016-2019) ter število odraslih v srednjih šolah.
+V tabele bom vključila število dijakov na 1000 prebivalcev v posameznih občinah oz. v posameznih statističnih regijah(podatki 2007-2018) Prikazala bom tudi delež dijakov po spolu po posameznih vrstah izobraževanja ter število dijakov po letnikih, vrsti vpisa in vrsti izobraževanja(podatki 2016-2019) ter število odraslih v srednjih šolah.
+Prikazala bom tudi število diplomantov na leto glede na vrsto izobraževanja in na spol, kasneje jih bom razdelila tudi po občinah oz. po statističnih regijah.
 
-Prikazala bom tudi število diplomantov na leto glede na vrsto izobraževanja in na spo, kasneje jih bom razdelila tudi po občinah oz. po statističnih regijah.
+## Spletne povezave do tabel na SURS-u
+
+Do tabel dostopam preko statističnega urada Republike Slovenije. Tabele lahko prenesem iz interneta na mnogo načinov, med drugim CSV, HTML, XML, XLS itd.
+
+- 1.tabela Število dijakov na 1000 prebivalcev po statistični regiji stalnega prebivališča in spolu, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__10_09793_srednjesol_izobraz_kazal/0979312S.px/
+
+- 2.tabela Delež dijakov po posameznih vrstah izobraževanja,Slovenija,letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__10_09793_srednjesol_izobraz_kazal/0979315S.px/
+
+- 3.tabela Delež dijakov po področjih izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__10_09793_srednjesol_izobraz_kazal/0979319S.px/
+
+- 4.tabela Dijaki po starosti, letnikih, spolu in vrsti izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953221S.px/
+
+- 5.tabela Dijaki po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953237S.px/
+
+- 6.tabela Odrasli v srednješolskem izobraževanju po statistični regiji stalnega prebivališča in spolu, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__02_09533_kon_sol_leta_mlad/0953324S.px/
+
+- 7.tabela Diplomanti terciarnega izobraževanja po vrsti izobraževanja in spolu, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955430S.px/
+
+- 8.tabela Diplomanti terciarnega izobraževanja po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955472S.px/
+
+- 9.tabela Študenti terciarnega izobraževanja po vrsti izobraževanja in načinu študija, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__01_09550_vpisani_splosno/0955030S.px/
 
 ## Program
 
