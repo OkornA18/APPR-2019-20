@@ -8,12 +8,9 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 ## Tematika
 
-V svojem projektu bom analizirala vključenost otrok v srednje šole ter študentov in odraslih v ustanove namenjene terciarnemu izobraževanju. Vse podatke, ki jih bom vključila v svojo projektno nalogo, sem dobila na SURS-u.
+V svojem projektu bom analizirala vključenost otrok in odraslih v srednje šole ter študentov v ustanove namenjene terciarnemu izobraževanju. Vse podatke, ki jih bom vključila v svojo projektno nalogo, sem dobila na SURS-u.
 
-V tabele bom vključila število dijakov na 1000 prebivalcev v posameznih občinah oz. v posameznih statističnih regijah(podatki 2007-2018) Prikazala bom tudi delež dijakov po spolu po posameznih vrstah izobraževanja ter število dijakov po letnikih, vrsti vpisa in vrsti izobraževanja(podatki 2016-2019) ter število odraslih v srednjih šolah.
-Prikazala bom tudi število diplomantov na leto glede na vrsto izobraževanja in na spol, kasneje jih bom razdelila tudi po občinah oz. po statističnih regijah.
-
-## Spletne povezave do tabel na SURS-u
+V tabele bom vključila število dijakov na 1000 prebivalcev v posameznih občinah oz. v posameznih statističnih regijah(podatki 2007-2018) Prikazala bom tudi delež dijakov po spolu po posameznih vrstah izobraževanja ter število dijakov po letnikih, vrsti vpisa in vrsti izobraževanja(podatki 2016-2019) pogledala pa bom tudi število odraslih v srednjih šolah.Prikazala bom tudi število diplomantov na leto glede na vrsto izobraževanja in na spol, kasneje jih bom razdelila tudi po občinah oz. po statističnih regijah.
 
 Do tabel dostopam preko statističnega urada Republike Slovenije. Tabele lahko prenesem iz interneta na mnogo načinov, med drugim CSV, HTML, XML, XLS itd.
 
