@@ -1,42 +1,131 @@
-"Študenti terciarnega izobraževanja po vrsti izobraževanja in naèinu študija, Slovenija, letno"
-
-"VRSTA IZOBRAŽEVANJA";"NAÈIN ŠTUDIJA";"2009/10";"2010/11";"2011/12";"2012/13";"2013/14";"2014/15";"2015/16";"2016/17";"2017/18";"2018/19"
-"Vrsta izobraževanja - SKUPAJ";"Naèin študija - SKUPAJ";114873;107134;104003;99877;92769;85616;80798;79547;76534;75991
-"Vrsta izobraževanja - SKUPAJ";"Redni";80467;79732;79543;77507;73833;69606;65269;62909;60343;59133
-"Vrsta izobraževanja - SKUPAJ";"Izredni";34406;27402;24460;22370;18936;16010;15529;16638;16191;16858
-"Višje strokovno";"Naèin študija - SKUPAJ";16594;15595;14403;13406;13251;11485;11162;11001;10353;10566
-"Višje strokovno";"Redni";7497;7999;7992;7293;7948;6897;6538;6347;5964;5707
-"Višje strokovno";"Izredni";9097;7596;6411;6113;5303;4588;4624;4654;4389;4859
-"Višješolski";"Naèin študija - SKUPAJ";-;-;-;-;-;-;-;-;-;-
-"Višješolski";"Redni";-;-;-;-;-;-;-;-;-;-
-"Višješolski";"Izredni";-;-;-;-;-;-;-;-;-;-
-"Visokošolsko strokovno (prejšnje)";"Naèin študija - SKUPAJ";10374;5679;2721;462;45;1;1;-;-;-
-"Visokošolsko strokovno (prejšnje)";"Redni";7092;4151;1982;310;9;-;-;-;-;-
-"Visokošolsko strokovno (prejšnje)";"Izredni";3282;1528;739;152;36;1;1;-;-;-
-"Visokošolsko strokovno (1. bolonjska stopnja)";"Naèin študija - SKUPAJ";22748;24517;25374;25798;23914;21748;20378;19962;19331;19077
-"Visokošolsko strokovno (1. bolonjska stopnja)";"Redni";14090;15772;16834;17481;16700;15479;14017;13182;12600;12382
-"Visokošolsko strokovno (1. bolonjska stopnja)";"Izredni";8658;8745;8540;8317;7214;6269;6361;6780;6731;6695
-"Visokošolsko univerzitetno (1. bolonjska stopnja)";"Naèin študija - SKUPAJ";24006;27626;29859;30565;29060;27144;24913;24162;22509;22271
-"Visokošolsko univerzitetno (1. bolonjska stopnja)";"Redni";21565;25410;27731;28536;27320;25677;23632;22700;21609;21445
-"Visokošolsko univerzitetno (1. bolonjska stopnja)";"Izredni";2441;2216;2128;2029;1740;1467;1281;1462;900;826
-"Visokošolsko univerzitetno (prejšnje)";"Naèin študija - SKUPAJ";25251;17943;12468;7620;2686;498;38;-;-;-
-"Visokošolsko univerzitetno (prejšnje)";"Redni";23098;16237;11398;6982;2443;491;38;-;-;-
-"Visokošolsko univerzitetno (prejšnje)";"Izredni";2153;1706;1070;638;243;7;-;-;-;-
-"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"Naèin študija - SKUPAJ";1688;2474;3211;3854;4399;4704;4794;4770;4687;4515
-"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"Redni";1565;2380;3094;3749;4312;4628;4756;4724;4612;4457
-"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"Izredni";123;94;117;105;87;76;38;46;75;58
-"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"Naèin študija - SKUPAJ";6752;9236;11868;14566;16398;17392;17181;17094;16830;16473
-"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"Redni";4289;6848;9618;12390;14383;15727;15624;15368;14884;14476
-"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"Izredni";2463;2388;2250;2176;2015;1665;1557;1726;1946;1997
-"Specialistièno";"Naèin študija - SKUPAJ";169;-;-;-;-;-;-;-;-;-
-"Specialistièno";"Redni";43;-;-;-;-;-;-;-;-;-
-"Specialistièno";"Izredni";126;-;-;-;-;-;-;-;-;-
-"Magistrsko (prejšnje)";"Naèin študija - SKUPAJ";3882;79;1;2;1;-;-;-;-;-
-"Magistrsko (prejšnje)";"Redni";516;4;-;-;-;-;-;-;-;-
-"Magistrsko (prejšnje)";"Izredni";3366;75;1;2;1;-;-;-;-;-
-"Doktorsko (prejšnje)";"Naèin študija - SKUPAJ";1298;1057;645;174;7;-;-;-;-;-
-"Doktorsko (prejšnje)";"Redni";362;283;171;14;-;-;-;-;-;-
-"Doktorsko (prejšnje)";"Izredni";936;774;474;160;7;-;-;-;-;-
-"Doktorsko (3. bolonjska stopnja)";"Naèin študija - SKUPAJ";2111;2928;3453;3430;3008;2644;2331;2558;2824;3089
-"Doktorsko (3. bolonjska stopnja)";"Redni";350;648;723;752;718;707;664;588;674;666
-"Doktorsko (3. bolonjska stopnja)";"Izredni";1761;2280;2730;2678;2290;1937;1667;1970;2150;2423
+"VRSTA IZOBRAŽEVANJA";"ŠTUDIJSKO LETO";"Redni";"Izredni"
+"Vrsta izobraževanja - SKUPAJ";"2009/10";80467;34406
+"Vrsta izobraževanja - SKUPAJ";"2010/11";79732;27402
+"Vrsta izobraževanja - SKUPAJ";"2011/12";79543;24460
+"Vrsta izobraževanja - SKUPAJ";"2012/13";77507;22370
+"Vrsta izobraževanja - SKUPAJ";"2013/14";73833;18936
+"Vrsta izobraževanja - SKUPAJ";"2014/15";69606;16010
+"Vrsta izobraževanja - SKUPAJ";"2015/16";65269;15529
+"Vrsta izobraževanja - SKUPAJ";"2016/17";62909;16638
+"Vrsta izobraževanja - SKUPAJ";"2017/18";60343;16191
+"Vrsta izobraževanja - SKUPAJ";"2018/19";59133;16858
+"Višje strokovno";"2009/10";7497;9097
+"Višje strokovno";"2010/11";7999;7596
+"Višje strokovno";"2011/12";7992;6411
+"Višje strokovno";"2012/13";7293;6113
+"Višje strokovno";"2013/14";7948;5303
+"Višje strokovno";"2014/15";6897;4588
+"Višje strokovno";"2015/16";6538;4624
+"Višje strokovno";"2016/17";6347;4654
+"Višje strokovno";"2017/18";5964;4389
+"Višje strokovno";"2018/19";5707;4859
+"Višješolski";"2009/10";-;-
+"Višješolski";"2010/11";-;-
+"Višješolski";"2011/12";-;-
+"Višješolski";"2012/13";-;-
+"Višješolski";"2013/14";-;-
+"Višješolski";"2014/15";-;-
+"Višješolski";"2015/16";-;-
+"Višješolski";"2016/17";-;-
+"Višješolski";"2017/18";-;-
+"Višješolski";"2018/19";-;-
+"Visokošolsko strokovno (prejšnje)";"2009/10";7092;3282
+"Visokošolsko strokovno (prejšnje)";"2010/11";4151;1528
+"Visokošolsko strokovno (prejšnje)";"2011/12";1982;739
+"Visokošolsko strokovno (prejšnje)";"2012/13";310;152
+"Visokošolsko strokovno (prejšnje)";"2013/14";9;36
+"Visokošolsko strokovno (prejšnje)";"2014/15";-;1
+"Visokošolsko strokovno (prejšnje)";"2015/16";-;1
+"Visokošolsko strokovno (prejšnje)";"2016/17";-;-
+"Visokošolsko strokovno (prejšnje)";"2017/18";-;-
+"Visokošolsko strokovno (prejšnje)";"2018/19";-;-
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2009/10";14090;8658
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2010/11";15772;8745
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2011/12";16834;8540
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2012/13";17481;8317
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2013/14";16700;7214
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2014/15";15479;6269
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2015/16";14017;6361
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2016/17";13182;6780
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2017/18";12600;6731
+"Visokošolsko strokovno (1. bolonjska stopnja)";"2018/19";12382;6695
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2009/10";21565;2441
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2010/11";25410;2216
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2011/12";27731;2128
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2012/13";28536;2029
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2013/14";27320;1740
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2014/15";25677;1467
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2015/16";23632;1281
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2016/17";22700;1462
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2017/18";21609;900
+"Visokošolsko univerzitetno (1. bolonjska stopnja)";"2018/19";21445;826
+"Visokošolsko univerzitetno (prejšnje)";"2009/10";23098;2153
+"Visokošolsko univerzitetno (prejšnje)";"2010/11";16237;1706
+"Visokošolsko univerzitetno (prejšnje)";"2011/12";11398;1070
+"Visokošolsko univerzitetno (prejšnje)";"2012/13";6982;638
+"Visokošolsko univerzitetno (prejšnje)";"2013/14";2443;243
+"Visokošolsko univerzitetno (prejšnje)";"2014/15";491;7
+"Visokošolsko univerzitetno (prejšnje)";"2015/16";38;-
+"Visokošolsko univerzitetno (prejšnje)";"2016/17";-;-
+"Visokošolsko univerzitetno (prejšnje)";"2017/18";-;-
+"Visokošolsko univerzitetno (prejšnje)";"2018/19";-;-
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2009/10";1565;123
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2010/11";2380;94
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2011/12";3094;117
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2012/13";3749;105
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2013/14";4312;87
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2014/15";4628;76
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2015/16";4756;38
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2016/17";4724;46
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2017/18";4612;75
+"Magistrsko (2. bolonjska stopnja) - enovito magistrsko";"2018/19";4457;58
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2009/10";4289;2463
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2010/11";6848;2388
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2011/12";9618;2250
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2012/13";12390;2176
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2013/14";14383;2015
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2014/15";15727;1665
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2015/16";15624;1557
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2016/17";15368;1726
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2017/18";14884;1946
+"Magistrsko (2. bolonjska stopnja) - po konèani 1. bolonjski stopnji";"2018/19";14476;1997
+"Specialistièno";"2009/10";43;126
+"Specialistièno";"2010/11";-;-
+"Specialistièno";"2011/12";-;-
+"Specialistièno";"2012/13";-;-
+"Specialistièno";"2013/14";-;-
+"Specialistièno";"2014/15";-;-
+"Specialistièno";"2015/16";-;-
+"Specialistièno";"2016/17";-;-
+"Specialistièno";"2017/18";-;-
+"Specialistièno";"2018/19";-;-
+"Magistrsko (prejšnje)";"2009/10";516;3366
+"Magistrsko (prejšnje)";"2010/11";4;75
+"Magistrsko (prejšnje)";"2011/12";-;1
+"Magistrsko (prejšnje)";"2012/13";-;2
+"Magistrsko (prejšnje)";"2013/14";-;1
+"Magistrsko (prejšnje)";"2014/15";-;-
+"Magistrsko (prejšnje)";"2015/16";-;-
+"Magistrsko (prejšnje)";"2016/17";-;-
+"Magistrsko (prejšnje)";"2017/18";-;-
+"Magistrsko (prejšnje)";"2018/19";-;-
+"Doktorsko (prejšnje)";"2009/10";362;936
+"Doktorsko (prejšnje)";"2010/11";283;774
+"Doktorsko (prejšnje)";"2011/12";171;474
+"Doktorsko (prejšnje)";"2012/13";14;160
+"Doktorsko (prejšnje)";"2013/14";-;7
+"Doktorsko (prejšnje)";"2014/15";-;-
+"Doktorsko (prejšnje)";"2015/16";-;-
+"Doktorsko (prejšnje)";"2016/17";-;-
+"Doktorsko (prejšnje)";"2017/18";-;-
+"Doktorsko (prejšnje)";"2018/19";-;-
+"Doktorsko (3. bolonjska stopnja)";"2009/10";350;1761
+"Doktorsko (3. bolonjska stopnja)";"2010/11";648;2280
+"Doktorsko (3. bolonjska stopnja)";"2011/12";723;2730
+"Doktorsko (3. bolonjska stopnja)";"2012/13";752;2678
+"Doktorsko (3. bolonjska stopnja)";"2013/14";718;2290
+"Doktorsko (3. bolonjska stopnja)";"2014/15";707;1937
+"Doktorsko (3. bolonjska stopnja)";"2015/16";664;1667
+"Doktorsko (3. bolonjska stopnja)";"2016/17";588;1970
+"Doktorsko (3. bolonjska stopnja)";"2017/18";674;2150
+"Doktorsko (3. bolonjska stopnja)";"2018/19";666;2423
