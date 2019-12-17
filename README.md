@@ -16,7 +16,7 @@ Do tabel dostopam preko statističnega urada Republike Slovenije. Tabele lahko p
 
 - 1.tabela Dijaki po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953237S.px/
 
-- 2.tabela Dijaki po starosti, letnikih, spolu in vrsti izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953221S.px/
+- 2.tabela Dijaki po spolu in vrsti izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953221S.px/
 
 - 3.tabela Diplomanti terciarnega izobraževanja po vrsti izobraževanja in spolu, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955430S.px/
 
