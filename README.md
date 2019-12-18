@@ -15,14 +15,37 @@ V tabele bom vključila število dijakov v posameznih statističnih regijah. Pri
 Do tabel dostopam preko statističnega urada Republike Slovenije. Tabele lahko prenesem iz interneta na mnogo načinov, med drugim CSV, HTML, XML, XLS itd.
 
 - 1.tabela Dijaki po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953237S.px/
+  Stolpci:
+  -Regija
+  -Leto
+  -Število dijakov
 
 - 2.tabela Dijaki po spolu in vrsti izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953221S.px/
+  Stolpci:
+  -Vrsta izobraževanja
+  -Leto
+  -Število dijakov moškega spola
+  -Število dijakov ženskega spola 
 
 - 3.tabela Diplomanti terciarnega izobraževanja po vrsti izobraževanja in spolu, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955430S.px/
+  Stolpci:
+  -Regija
+  -Leto
+  -Število diplomantov
 
 - 4.tabela Diplomanti terciarnega izobraževanja po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955472S.px/
+  Stolpci:
+  -Vrsta izobraževanja
+  -Leto
+  -Število diplomantov moškega spola
+  -Število diplomantov ženskega spola
 
 - 5.tabela Študenti terciarnega izobraževanja po vrsti izobraževanja in načinu študija, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__01_09550_vpisani_splosno/0955030S.px/
+  Stolpci:
+  -Vrsta izobraževanja
+  -Leto
+  -Število študentov, ki opravlja izredni študij
+  -Število študentov, ki opravlja redni študij
 
 ## Program
 
