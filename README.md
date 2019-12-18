@@ -15,9 +15,13 @@ V tabele bom vključila število dijakov v posameznih statističnih regijah. Pri
 Do tabel dostopam preko statističnega urada Republike Slovenije. Tabele lahko prenesem iz interneta na mnogo načinov, med drugim CSV, HTML, XML, XLS itd.
 
  1.tabela Dijaki po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953237S.px/
+ 
   Stolpci:
+  
   -Regija
+  
   -Leto
+  
   -Število dijakov
 
  2.tabela Dijaki po spolu in vrsti izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953221S.px/
