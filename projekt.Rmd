@@ -1,6 +1,6 @@
 ---
 title: "Poročilo pri predmetu Analiza podatkov s programom R"
-author: "Študent FMF"
+author: "Ana Marija Okorn"
 output:
   html_document: default
   pdf_document:
@@ -35,7 +35,7 @@ Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
 # Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE}
-source("uvoz/uvoz.r", encoding="UTF-8")
+source("uvoz/mojuvoz.R", encoding="UTF-8")
 ```
 
 Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
