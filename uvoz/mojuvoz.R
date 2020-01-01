@@ -6,13 +6,13 @@ library(dplyr)
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 
-tabela1 <- read_csv2("podatki/st_dijakov_po_regijah.csv", skip = 1, col_names = c("regija", "leto", "stevilo"),
+tabela1 <- read_csv2("podatki/st_dijakov_po_regijah.csv", skip = 1, col_names = c("regija", "leto", "dijaki"),
                   locale=locale(encoding="Windows-1250"))
 
 tabela2 <- read_csv2("podatki/st_dijakov_po_spolu_vrsti_izobrazevanja.csv", skip = 1, col_names = c("izobrazevanje", "letnik", "starost", "leto", "moski", "zenski"),
                      locale=locale(encoding="Windows-1250")) %>% select(c(-2, -3)) %>% mutate(leto=parse_number(leto))
 
-tabela3 <- read_csv2("podatki/st_diplomantov_po_regijah.csv", skip = 1, col_names = c("regija", "leto", "stevilo"),
+tabela3 <- read_csv2("podatki/st_diplomantov_po_regijah.csv", skip = 1, col_names = c("regija", "leto", "diplomanti"),
                      locale=locale(encoding="Windows-1250"))
 
 tabela4 <- read_csv2("podatki/st_diplomantov_po_vrsti_izobraževanja_spolu.csv", skip = 1, na = c("-"),  col_names = c("izobrazevanje", "leto", "moski", "zenski"),
