@@ -13,3 +13,8 @@ povprecja <- druzine %>% group_by(obcina) %>%
   summarise(povprecje=sum(velikost.druzine * stevilo.druzin) / sum(stevilo.druzin))
 
 povprecje.dijakovinstudentov.po.regijah <- tabela1nova %>% group_by(regija,kategorija) %>% summarise(povprecje=sum(stevilo)/10)
+seznam <- split(povprecje.dijakovinstudentov.po.regijah, povprecje.dijakovinstudentov.po.regijah$kategorija)
+povprecje.dijakov.po.regijah <- seznam[[1]]
+povprecje.studentov.po.regijah <- seznam[[2]]
+povprecje.dijakov.po.regijah <- povprecje.dijakov.po.regijah[-12,]
+povprecje.studentov.po.regijah <- povprecje.studentov.po.regijah[-12,]
