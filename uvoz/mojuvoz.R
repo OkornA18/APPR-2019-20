@@ -21,13 +21,15 @@ tabela4 <- read_csv2("podatki/st_diplomantov_po_vrsti_izobraževanja_spolu.csv",
 tabela5 <- read_csv2("podatki/st_studentov_po_vrsti_izobrazevanja_nacinu_studija.csv", skip = 1,na = c("-"), col_names = c("izobrazevanje", "leto", "redni", "izredni"),
                      locale=locale(encoding="Windows-1250"))%>% drop_na(3) %>% mutate(leto=parse_number(leto))
 
-tabela13 <- tabela1 %>%
-  mutate(leto=parse_number(leto), # leta pretvorimo v števila
-         regija=gsub("^stalno", "Stalno", regija)) %>% # stalno -> Stalno na začetku
-  full_join(tabela3) %>% # združimo po skupnih stolpcih in ohranimo vse vrstice
-  filter(regija != "SLOVENIJA") %>% # odstranimo sumarne podatke
-  gather(key="kategorija", value="stevilo", -regija, -leto) # pretvorimo v tidy data
+#v tabela1nova združimo tabela1 in tabela3
+
+tabela1nova <- tabela1 %>%
+  mutate(leto=parse_number(leto), 
+         regija=gsub("^stalno", "Stalno", regija)) %>% 
+  full_join(tabela3) %>% 
+  filter(regija != "SLOVENIJA") %>% 
+  gather(key="kategorija", value="stevilo", -regija, -leto) 
 
 tabela2nova <- gather(tabela2, -izobrazevanje, -leto, key=spol, value=stevilo, na.rm = TRUE)
-tabela4nova <- gather(tabela4, -izobrazevanje, -leto, key=spol, value=stevilo, na.rm = TRUE)
-tabela5nova <- gather(tabela5, -izobrazevanje, -leto, key=studij, value=stevilo, na.rm = TRUE)
+tabela3nova <- gather(tabela4, -izobrazevanje, -leto, key=spol, value=stevilo, na.rm = TRUE)
+tabela4nova <- gather(tabela5, -izobrazevanje, -leto, key=studij, value=stevilo, na.rm = TRUE)

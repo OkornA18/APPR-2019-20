@@ -10,65 +10,58 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 V svojem projektu bom analizirala vključenost otrok v srednje šole ter študentov v ustanove namenjene terciarnemu izobraževanju. Vse podatke, ki jih bom vključila v svojo projektno nalogo, sem dobila na SURS-u(statistični urad republike Slovenije).Večino podatkov bom vzela od leta 2009-2018.
 
-V tabele bom vključila število dijakov v posameznih statističnih regijah. Prikazala bom tudi delež dijakov po spolu po posameznih vrstah izobraževanja ter število dijakov po letnikih, vrsti vpisa in vrsti izobraževanja.Prikazala bom tudi število diplomantov na leto glede na vrsto izobraževanja vrsti in načinu študija in na spol, kasneje jih bom razdelila tudi po statističnih regijah.
+V tabele bom vključila število dijakov v posameznih statističnih regijah. Prikazala bom tudi število dijakov po spolu po posameznih vrstah izobraževanja.Prikazala bom tudi število diplomantov na leto glede na vrsto izobraževanja in načinu študija in na spol, kasneje jih bom razdelila tudi po statističnih regijah.
 
 Do tabel dostopam preko statističnega urada Republike Slovenije. Tabele lahko prenesem iz interneta na mnogo načinov, med drugim CSV, HTML, XML, XLS itd.
 
- 1.tabela Dijaki po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953237S.px/
+ 1.tabela Dijaki in diplomanti terciarnega izobraževanja po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953237S.px/
+https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955430S.px/
  
   Stolpci:
   
-  -Regija
+  -Regija,
   
-  -Leto
+  -Leto,
   
-  -Število dijakov
+  -Kategorija (dijaki, študenti),
+  
+  -Število
 
  2.tabela Dijaki po spolu in vrsti izobraževanja, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__07_srednjesol_izobraz__01_09532_zac_sol_leta/0953221S.px/
  
   Stolpci:
   
-  -Vrsta izobraževanja
+  -Vrsta izobraževanja,
   
-  -Leto
+  -Leto,
   
-  -Število dijakov moškega spola
+  -Spol(moški, ženski),
   
-  -Število dijakov ženskega spola 
+  -Število
 
  3.tabela Diplomanti terciarnega izobraževanja po vrsti izobraževanja in spolu, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955430S.px/
  
   Stolpci:
   
-  -Regija
+  -Vrsta izobraževanja,
   
-  -Leto
+  -Leto,
   
-  -Število diplomantov
+  -Spol(moški, ženski),
+  
+  -Število
 
- 4.tabela Diplomanti terciarnega izobraževanja po statistični regiji stalnega prebivališča, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__02_09554_diplomanti_splosno/0955472S.px/
+ 4.tabela Študenti terciarnega izobraževanja po vrsti izobraževanja in načinu študija, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__01_09550_vpisani_splosno/0955030S.px/
  
   Stolpci:
   
-  -Vrsta izobraževanja
+  -Vrsta izobraževanja,
   
-  -Leto
+  -Leto,
   
-  -Število diplomantov moškega spola
+  -Način študija,
   
-  -Število diplomantov ženskega spola
-
- 5.tabela Študenti terciarnega izobraževanja po vrsti izobraževanja in načinu študija, Slovenija, letno https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__09_izobrazevanje__08_terciarno_izobraz__01_09550_vpisani_splosno/0955030S.px/
- 
-  Stolpci:
-  
-  -Vrsta izobraževanja
-  
-  -Leto
-  
-  -Število študentov, ki opravlja izredni študij
-  
-  -Število študentov, ki opravlja redni študij
+  -Število
 
 ## Program
 
