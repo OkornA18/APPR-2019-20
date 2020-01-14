@@ -21,7 +21,7 @@ tabela4 <- read_csv2("podatki/st_diplomantov_po_vrsti_izobraževanja_spolu.csv",
 tabela5 <- read_csv2("podatki/st_studentov_po_vrsti_izobrazevanja_nacinu_studija.csv", skip = 1,na = c("-"), col_names = c("izobrazevanje", "leto", "redni", "izredni"),
                      locale=locale(encoding="Windows-1250"))%>% drop_na(3) %>% mutate(leto=parse_number(leto))
 
-#v tabela1nova združimo tabela1 in tabela3
+#v tabela1nova združimo tabela1 in tabela3(stevilo dijakov in diplomantov po regijah)
 
 tabela1nova <- tabela1 %>%
   mutate(leto=parse_number(leto), 
@@ -30,6 +30,14 @@ tabela1nova <- tabela1 %>%
   filter(regija != "SLOVENIJA") %>% 
   gather(key="kategorija", value="stevilo", -regija, -leto) 
 
+# v tabela2nova so podatki o stevilu dijakov po spolu in vrsti izobrazevanja
+
 tabela2nova <- gather(tabela2, -izobrazevanje, -leto, key=spol, value=stevilo, na.rm = TRUE)
+
+# v tabela3nova so podatki o stevilu diplomantov po spolu in vrsti izobrazevanja
+
 tabela3nova <- gather(tabela4, -izobrazevanje, -leto, key=spol, value=stevilo, na.rm = TRUE)
+
+# v tabela4nova so podatki o stevilu studentov po vrsti izobrazevanja in nacinu studija
+
 tabela4nova <- gather(tabela5, -izobrazevanje, -leto, key=studij, value=stevilo, na.rm = TRUE)
