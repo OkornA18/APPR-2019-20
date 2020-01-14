@@ -11,12 +11,19 @@
 # Izračunamo povprečno velikost družine
 #povprecja <- druzine %>% group_by(obcina) %>%
 #  summarise(povprecje=sum(velikost.druzine * stevilo.druzin) / sum(stevilo.druzin))
+library(ggplot2)
 
-povprecje.dijakovinstudentov.po.regijah <- tabela1nova %>% group_by(regija,kategorija) %>% summarise(povprecje=sum(stevilo)/10)
-seznam <- split(povprecje.dijakovinstudentov.po.regijah, povprecje.dijakovinstudentov.po.regijah$kategorija)
+povprecje.dijakovindiplomantov.po.regijah <- tabela1nova %>% group_by(regija,kategorija) %>% summarise(povprecje=sum(stevilo)/10)
+seznam <- split(povprecje.dijakovindiplomantov.po.regijah, povprecje.dijakovindiplomantov.po.regijah$kategorija)
 povprecje.dijakov.po.regijah <- seznam[[1]]
-povprecje.studentov.po.regijah <- seznam[[2]]
-povprecje.dijakov.po.regijah <- povprecje.dijakov.po.regijah[-12,]
-povprecje.studentov.po.regijah <- povprecje.studentov.po.regijah[-12,]
+povprecje.diplomantov.po.regijah <- seznam[[2]]
+povprecje.dijakov.po.regijah <- povprecje.dijakov.po.regijah[-12,] %>% select(-"kategorija")
+povprecje.diplomantov.po.regijah <- povprecje.diplomantov.po.regijah[-12,] %>% select(-"kategorija")
 
-#graf1 <- ggplot(data = povprecje.dijakov.po.regijah,aes(x=leto, y=stevilo)) + geom_line(col="blue")+ ggtitle("Število zasedenih mest v zadnjem destletju")
+graf1 <- ggplot(povprecje.dijakov.po.regijah, aes(regija, povprecje, group = 1)) + geom_point() + geom_line(col="red") +
+  labs(x = "Regija", y = "Povprecje", 
+       title = "Povprečno število dijakov po regijah v zadnjih desetih letih")
+graf2 <- ggplot(povprecje.diplomantov.po.regijah, aes(regija, povprecje, group = 1)) + geom_point() + geom_line(col="blue") +
+  labs(x = "Regija", y = "Povprecje", 
+       title = "Povprečno število diplomantov po regijah v zadnjih desetih letih")
+
