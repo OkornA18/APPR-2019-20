@@ -21,13 +21,13 @@ povprecje.diplomantov.po.regijah <- seznam[[2]]
 povprecje.dijakov.po.regijah <- povprecje.dijakov.po.regijah[-12,] %>% select(-"kategorija")
 povprecje.diplomantov.po.regijah <- povprecje.diplomantov.po.regijah[-12,] %>% select(-"kategorija")
 
-zemljevid <- uvozi.zemljevid("https://biogeo.ucdavis.edu/data/gadm3.6/shp/gadm36_SVN_shp.zip", "gadm36_SVN_1")
-zemljevid1 <- tm_shape(merge(zemljevid, povprecje.diplomantov.po.regijah, by.x="NAME_1", by.y="regija" )) + tm_polygons("Povprecje",title="Povprečje") + tm_layout(title="Povprečno število diplomantov po regijah v zadnjih desetih letih")
+#zemljevid <- uvozi.zemljevid("https://biogeo.ucdavis.edu/data/gadm3.6/shp/gadm36_SVN_shp.zip", "gadm36_SVN_1")
+#zemljevid1 <- tm_shape(merge(zemljevid, povprecje.diplomantov.po.regijah, by.x="NAME_1", by.y="regija" )) + tm_polygons("povprecje",title="Povprečje") + tm_layout(title="Povprečno število diplomantov po regijah v zadnjih desetih letih")
 
-graf1 <- ggplot(povprecje.dijakov.po.regijah, aes(regija, povprecje, group = 1)) + geom_point() + geom_line(col="red") +
+graf1 <- ggplot(povprecje.dijakov.po.regijah, aes(regija, povprecje, group = 1)) + geom_col() + coord_flip() +
   labs(x = "Regija", y = "Povprecje", 
        title = "Povprečno število dijakov po regijah v zadnjih desetih letih")
-graf2 <- ggplot(povprecje.diplomantov.po.regijah, aes(regija, povprecje, group = 1)) + geom_point() + geom_line(col="blue") +
+graf2 <- ggplot(povprecje.diplomantov.po.regijah, aes(regija, povprecje, group = 1)) + geom_col() + coord_flip() +
   labs(x = "Regija", y = "Povprecje", 
        title = "Povprečno število diplomantov po regijah v zadnjih desetih letih")
 
