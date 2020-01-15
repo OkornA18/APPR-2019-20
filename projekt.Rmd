@@ -71,8 +71,13 @@ Uvozili smo podatke v obliki CSV s statističnega urada. Podatke imamo v štirih
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
+Pred analizo teh podatkov sem si zastavila naslednja vprašanja:
 
-```{r graf1, echo=FALSE, fig.align='center', fig.cap='Povprečno število dijakov po regijah v zadnjih desetih letih'}
+- Kje v Sloveniji je največ dijakov, ter kje je največ diplomantov?
+- Kam se v zadnjih desetih letih najbolj usmerjajo mladi(moški in ženske), ko se odločajo za srednjo šolo?
+
+Prvi graf prikazuje povprečno število dijakov po regijah v zadnjih desetih letih(2009-2018).
+```{r graf1, echo=FALSE, fig.align='center', fig.cap='Povprečno število dijakov'}
 graf1
 ```
 
@@ -80,6 +85,19 @@ graf1
 graf2
 ```
 
+Spodnji zemljevid pa nam prikazuje povprečno število diplomantov po regijah v zadnjih desetih letih. Glede na število dijakov in število diplomantov lahko razberemo, da je številka dijakov veliko večja kot številka diplomantov, kar pomeni da veliko ljudi ne nadaljuje svojega šolanja na faksu in se raje zaposlijo, ali pa pred diplomiranjem faks pustijo in se zaposlijo. Kot primer lahko vzamemo npr.Osrednje_slovenskoo regijo, kjer vidimo, da je v zadnjih 10 letih diplomirala le dobra četrtina vseh dijakov v zadnjih desetih letih.
+
+```{r zemljevid1, echo=FALSE, message=FALSE, warning=FALSE,fig.align='center', fig.cap='Povprečno število diplomantov po regijah v zadnjih desetih letih'}
+ zemljevid1
+```
+
+```{r grafs, echo=FALSE, fig.align='center', fig.cap='Povprečno število moških po vrstah izobraževanja v zadnjih desetih letih'}
+graf3
+```
+
+```{r graf4, echo=FALSE, fig.align='center', fig.cap='Povprečno število žensk po vrstah izobraževanja v zadnjih desetih letih'}
+graf4
+```
 ***
 
 # Napredna analiza podatkov
