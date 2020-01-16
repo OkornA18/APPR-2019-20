@@ -77,11 +77,11 @@ Pred analizo teh podatkov sem si zastavila naslednja vprašanja:
 - Kam se v zadnjih desetih letih najbolj usmerjajo mladi(moški in ženske), ko se odločajo za srednjo šolo?
 
 Prvi graf prikazuje povprečno število dijakov po regijah v zadnjih desetih letih(2009-2018).
-```{r graf1, echo=FALSE, fig.align='center', fig.cap='Povprečno število dijakov'}
+```{r graf1, echo=FALSE, fig.align='center'}
 graf1
 ```
 
-```{r graf2, echo=FALSE, fig.align='center', fig.cap='Povprečno število diplomantov po regijah v zadnjih desetih letih'}
+```{r graf2, echo=FALSE, fig.align='center'}
 graf2
 ```
 
@@ -91,11 +91,15 @@ Spodnji zemljevid pa nam prikazuje povprečno število diplomantov po regijah v 
  zemljevid1
 ```
 
-```{r grafs, echo=FALSE, fig.align='center', fig.cap='Povprečno število moških po vrstah izobraževanja v zadnjih desetih letih'}
+Spodnje dva grafa nam prikazujeta, v katere izobraževalne programe so se v zadnjih desetih letih vpisovali slovenski dijaki in dijakinje. Iz podatov v grafih lahko razberemo, da so se fantje bolj zanimali za tehniške in druge strokovne programe, medtem ko so se dekleta odločile za splošne in strokovne gimnazijske programe.
+
+```{r grafs, echo=FALSE, fig.align='center'}
 graf3
 ```
 
-```{r graf4, echo=FALSE, fig.align='center', fig.cap='Povprečno število žensk po vrstah izobraževanja v zadnjih desetih letih'}
+
+
+```{r graf4, echo=FALSE, fig.align='center'}
 graf4
 ```
 ***
