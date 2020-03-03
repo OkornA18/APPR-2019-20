@@ -99,9 +99,9 @@ graf3
 
 
 
-#```{r graf4, echo=FALSE, fig.align='center'}
-#graf4
-#```
+```{r graf4, echo=FALSE, fig.align='center'}
+graf4
+```
 ***
 
 # Napredna analiza podatkov
