@@ -41,3 +41,4 @@ tabela3nova <- gather(tabela4, -izobrazevanje, -leto, key=spol, value=stevilo, n
 # v tabela4nova so podatki o stevilu studentov po vrsti izobrazevanja in nacinu studija
 
 tabela4nova <- gather(tabela5, -izobrazevanje, -leto, key=studij, value=stevilo, na.rm = TRUE)
+

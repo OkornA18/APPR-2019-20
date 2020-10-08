@@ -38,6 +38,7 @@ graf3 <- ggplot(m, aes(izobrazevanje, povprecje, group = 1)) + geom_col() + coor
 graf4 <- ggplot(z, aes(izobrazevanje, povprecje, group = 1)) + geom_col() + coord_flip()+ labs(x = "Vrsta izobraževanja", y = "Število žensk", 
                                                                                                title = "Povprečno število žensk v posameznih vrstah \nizobraževanj v zadnjih desetih letih")
 
-graf3 <- tabela2nova %>% group_by(izobrazevanje, spol) %>% summarise(povprecje=sum(stevilo)/10) %>%
-  ggplot(aes(x=izobrazevanje, y=povprecje, group = 1)) + geom_bar() + fill=spol + coord_flip() + labs(x = "Vrsta izobraževanja", y = "Povprečno število", title = "test")
-print(graf3)
+podatki5 <- tabela2nova %>% group_by(izobrazevanje, spol) %>% summarise(povprecje=sum(stevilo)/10)
+  
+#ggplot(podatki5, aes(x=izobrazevanje, y=povprecje, group = 1)) + geom_bar()  + coord_flip() + labs(x = "Vrsta izobraževanja", y = "Povprečno število", title = "test")
+
