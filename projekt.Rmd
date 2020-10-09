@@ -102,6 +102,10 @@ graf3
 ```{r graf4, echo=FALSE, fig.align='center'}
 graf4
 ```
+
+```{r graf5, echo=FALSE, fig.align='center'}
+graf5
+```
 ***
 
 # Napredna analiza podatkov
