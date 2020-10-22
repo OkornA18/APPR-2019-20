@@ -9,6 +9,8 @@ library(xts)
 library(tidyverse)
 library(lubridate)
 library(tmap)
+library("readxl")
+library("openxlsx")
 source("https://raw.githubusercontent.com/jaanos/APPR-2019-20/master/lib/uvozi.zemljevid.r")
 
 # Uvozimo funkcije za pobiranje in uvoz zemljevida.
